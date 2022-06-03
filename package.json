@@ -1,5 +1,5 @@
 {
-  "name": "apm",
+  "name": "angular_routing",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
