@@ -33,7 +33,7 @@ export class AppComponent {
 
   constructor(private authService: AuthService,
     private router: Router,
-    public messageService: MessageService) {
+    private messageService: MessageService) {
     router.events.subscribe((routerEvent: Event) => {
       this.checkRouterEvent(routerEvent);
     });
